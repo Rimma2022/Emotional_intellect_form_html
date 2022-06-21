@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+    padding-top: 4%;
+}
+body{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(246, 255, 182);
+}
+
+header{
+    height: 55%;
+    background-color: cadetblue;
+    width: 25%;
+    position: absolute;    
+    left: 37%; 
+    top: 15%; 
+}
+form{    
+    height: 70%;
+    width: 74%;
+    background-color: white;
+    margin: auto;
+    
+}
+/* input:valid{
+    background-color: cadetblue;
+    color: white;
+}
+input:invalid{
+    background-color: rgb(246, 255, 182);
+} */
+h3{
+    color:cadetblue;
+    text-align: center;
+    padding: 3%;
+}
+button{
+    background-color:cadetblue;
+    color:white;
+    padding-top: 4%;
+}
+
+input{
+    width: 80%;
+    margin-bottom: 2%;
+    padding: 3%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  rgb(246, 255, 182);
+    color: cadetblue;
+}
+div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%; 
+    width: 74%;
+    height: 10%;   
+    margin-left: 13%;
+    
+   
+}
+p.Facebook{
+    background-color: rgb(104, 104, 232);       
+    color: white; 
+    width: 40%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center; 
+    text-decoration: none;  
+    
+}
+p.VK{
+    background-color: rgb(85, 166, 236);      
+    color: white;  
+    width: 40%; 
+    height: 30px;
+    line-height: 30px;
+    text-align: center;     
+}
+a{
+    text-decoration: none;
+}
+ 
